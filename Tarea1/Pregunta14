@@ -1,0 +1,4 @@
+#Presentar un string con el titulo y el autor de un libro
+titulo="Amigo se escribe con H"
+autor="María Fernanda Heredia"
+print("El nombre del libro es ",titulo,"y el Autor es ",autor)

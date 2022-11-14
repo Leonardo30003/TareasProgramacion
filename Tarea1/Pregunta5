@@ -1,0 +1,8 @@
+#cree un scrip para saber si el usuario es mayor de edad 
+
+edad=int(input("Digite su edad : "))
+MayorEdad=18
+if edad>=MayorEdad:
+   print("es mayor de edad")
+else:
+    print("es menor de edad")

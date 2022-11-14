@@ -1,0 +1,4 @@
+#Imprimir números de 5 a 1 de manera descendente.
+numeros=[1,2,3,4,5]
+alreves=sorted(numeros,reverse=True)
+print(alreves)

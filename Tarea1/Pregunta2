@@ -1,0 +1,5 @@
+#Ingrese nombre y apellido e imprimalo al revez 
+nombre= "Leonardo"
+apellido= "Carrión"
+print(apellido,nombre)
+

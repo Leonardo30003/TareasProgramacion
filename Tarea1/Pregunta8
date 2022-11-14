@@ -1,0 +1,18 @@
+"""Crear un script que reciba una cantidad infinita de números hasta decir basta, luego
+que imprima la suma de los números ingresados"""
+variable =True 
+suma= 0
+while variable ==True:
+
+    print("[1] Si")
+    print("[2] No")
+   
+    
+    menu= int(input("Quiere ingresar un numero ? "))
+    if menu==1:
+        num= int(input("Ingresa un numero -> "))
+        suma= suma+num
+    else:
+        variable=False
+
+print(f"La suma de los numeros ingresados es: {suma}")

@@ -1,0 +1,5 @@
+#Crear un script que imprima el volumen de una esfera por su radio 4/3 * pi * r ** 
+from math import pi
+r=float(input("ingresa el radio de tu esfera :"))
+volumen= 4/3 * pi* r ** 3
+print("El volumen de la esfera es {} unidades cubicas".format(volumen))

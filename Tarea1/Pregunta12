@@ -1,0 +1,12 @@
+#Calcular el área y el perímetro de un Rectángulo,
+
+#Entradas
+print("Ingrese Base y Alto: ")
+BASE = float( input("Base: "))
+ALTO = float( input("Alto: "))
+SUP = BASE*ALTO
+PER = 2*(BASE + ALTO)
+#Salida
+print("\nSALIDA: ")
+print("Superficie:", SUP)
+print("Perímetro:", PER)

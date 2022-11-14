@@ -1,0 +1,5 @@
+#Crear un script que encuentre la potencia de un número ingresado por el teclado.
+num = int(input("Ingresa un numero: "))
+potencia = int(input("Ingresa la potencia: "))
+resta = num**potencia
+print(f"Tu resultado es = {resta}")

@@ -1,0 +1,14 @@
+calificacion=int(input("Ingrese su calificacion:"))
+
+if calificacion>=9 and calificacion <= 10:
+    print(f"{calificacion:} A")
+elif calificacion>=8 and calificacion<9:
+    print(f"{calificacion:} B")
+elif calificacion>=7 and calificacion<8:
+    print(f"{calificacion:} C")
+elif calificacion>=6 and calificacion<7:
+    print(f"{calificacion:} D")
+elif calificacion>=0 and calificacion<6:
+    print(f"{calificacion:} F")
+else:
+    print("Calificacion desconocida")

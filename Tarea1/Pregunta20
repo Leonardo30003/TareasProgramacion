@@ -1,0 +1,15 @@
+#Crear un script para saludar desde Python.
+variable =True 
+while variable ==True:
+
+    print("[1] Si")
+    print("[2] No")
+   
+    
+    menu= int(input("Quiere saludar ? "))
+    if menu==1:
+        saludo= (input("Muy buenas criaturitas del señorr "))
+  
+    else:
+     menu==2
+     print("Nos vemos guapeton")

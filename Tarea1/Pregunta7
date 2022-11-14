@@ -1,0 +1,6 @@
+#Crear un script que indique cuantas vocales tiene una palabra.
+palabra=input("Ingresa una palabra : ")
+def obtenerVocales(palabra):
+   vocales ="aeiouAEIOU"
+   return[c for c in palabra if c in vocales]
+print(obtenerVocales(palabra))
